@@ -2,6 +2,9 @@ package com.pluralsight;
 
 public class App {
     public static void main(String[] args) {
+
+        // A Moped can call setColor() because Moped inherits all methods from Vehicle.
+
         Moped slowRide = new Moped("Red", 1, 5000, 5, true, true);
         System.out.println("Moped color: " + slowRide.getColor());
 
